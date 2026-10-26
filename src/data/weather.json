@@ -1,0 +1,128 @@
+[
+  {
+    "cityName": "Prague",
+    "country": "Czech Republic",
+    "currentWeather": {
+      "temperature": 18,
+      "humidity": 65,
+      "windSpeed": 12,
+      "weatherCondition": "sunny"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-26",
+        "minimumTemperature": 9,
+        "maximumTemperature": 18,
+        "weatherCondition": "cloudy"
+      },
+      {
+        "date": "2026-10-27",
+        "minimumTemperature": 8,
+        "maximumTemperature": 16,
+        "weatherCondition": "rainy"
+      },
+      {
+        "date": "2026-10-28",
+        "minimumTemperature": 7,
+        "maximumTemperature": 15,
+        "weatherCondition": "windy"
+      },
+      {
+        "date": "2026-10-29",
+        "minimumTemperature": 6,
+        "maximumTemperature": 14,
+        "weatherCondition": "stormy"
+      },
+      {
+        "date": "2026-10-30",
+        "minimumTemperature": 5,
+        "maximumTemperature": 13,
+        "weatherCondition": "foggy"
+      }
+    ]
+  },
+  {
+    "cityName": "Amsterdam",
+    "country": "Netherlands",
+    "currentWeather": {
+      "temperature": 15,
+      "humidity": 70,
+      "windSpeed": 10,
+      "weatherCondition": "cloudy"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-26",
+        "minimumTemperature": 10,
+        "maximumTemperature": 16,
+        "weatherCondition": "rainy"
+      },
+      {
+        "date": "2026-10-27",
+        "minimumTemperature": 9,
+        "maximumTemperature": 15,
+        "weatherCondition": "cloudy"
+      },
+      {
+        "date": "2026-10-28",
+        "minimumTemperature": 8,
+        "maximumTemperature": 14,
+        "weatherCondition": "sunny"
+      },
+      {
+        "date": "2026-10-29",
+        "minimumTemperature": 7,
+        "maximumTemperature": 13,
+        "weatherCondition": "windy"
+      },
+      {
+        "date": "2026-10-30",
+        "minimumTemperature": 6,
+        "maximumTemperature": 12,
+        "weatherCondition": "foggy"
+      }
+    ]
+  },
+  {
+    "cityName": "Berlin",
+    "country": "Germany",
+    "currentWeather": {
+      "temperature": 17,
+      "humidity": 60,
+      "windSpeed": 14,
+      "weatherCondition": "sunny"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-26",
+        "minimumTemperature": 11,
+        "maximumTemperature": 18,
+        "weatherCondition": "cloudy"
+      },
+      {
+        "date": "2026-10-27",
+        "minimumTemperature": 10,
+        "maximumTemperature": 17,
+        "weatherCondition": "rainy"
+      },
+      {
+        "date": "2026-10-28",
+        "minimumTemperature": 9,
+        "maximumTemperature": 16,
+        "weatherCondition": "windy"
+      },
+      {
+        "date": "2026-10-29",
+        "minimumTemperature": 8,
+        "maximumTemperature": 15,
+        "weatherCondition": "stormy"
+      },
+      {
+        "date": "2026-10-30",
+        "minimumTemperature": 7,
+        "maximumTemperature": 14,
+        "weatherCondition": "foggy"
+      }
+    ]
+  }
+]
