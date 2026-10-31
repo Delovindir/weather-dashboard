@@ -1,8 +1,10 @@
 # Weather Dashboard
 
-Made with: React + TypeScript + Vite
+Made with: React + Vite
 
 This project is inspired by a chalenge I once did for an job application. It is a simple weather dashboard to display fake weather for 12 towns. This project was made to showcase my knowlegde of a React front-end application.
+
+Current state: In Development.
 
 ## How it works:
 1. You look up a town for its weather forecast.
@@ -40,3 +42,5 @@ weather-dashboard/
 ├── README.md
 └── package.json
 
+## Approach
+I decided to work on it with Test-Driven Development (TDD) in mind. Therefore I created the unit test first. Using Vitest. 

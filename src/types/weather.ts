@@ -1,4 +1,11 @@
-export type WeatherCondition = 'sunny' | 'cloudy' | 'rainy' | 'snowy' | 'windy' | 'stormy' | 'foggy';
+export type WeatherCondition = 
+  | 'sunny' 
+  | 'cloudy' 
+  | 'rainy' 
+  | 'snowy' 
+  | 'windy' 
+  | 'stormy' 
+  | 'foggy';
 
 export interface CurrentWeather {
   /** in Celsius */
