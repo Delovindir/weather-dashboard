@@ -8,10 +8,16 @@ import { useState } from 'react';
 
 function App() {
   const [weather, setWeather] = useState<CityWeather | undefined>();
+  const [error, setError] = useState<string | undefined>();
  
   function handleSearch(cityName: string) {
     const result = getWeatherByCity(cityName);
-    if (!result) return;
+    if (!result) {
+      setError(`couldn't find weather information for ${cityName}.`);
+      setWeather(undefined);
+      return;
+    }
+    setError(undefined);
     setWeather(result);
   }
   
@@ -33,6 +39,7 @@ function App() {
           <CitySearch onSearch={handleSearch} />
         </div>
         {weather && <WeatherDisplay weather={weather} />}
+        {error && <p role="alert">{error}</p>}
         <div id="disclaimer">
           <p>
             * This is a demo weather dashboard. Data may not be accurate.
