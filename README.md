@@ -44,3 +44,16 @@ weather-dashboard/
 
 ## Approach
 I decided to work on it with Test-Driven Development (TDD) in mind. Therefore I created the unit test first. Using Vitest. 
+
+First I wrote the tests. Keeping in mind to test every possible outcome. Then created the function. Using the tests to see if the function works properly.
+
+Besides the TDD I decided to work in stages. To keep small achievable goals. There where seven stages in total with a possible eight to refine some details or add nice to have features.
+
+## Stage 1
+This stage was the starting stage. Where I set up my working enviorment, git repository and created the react project.
+
+## Stage 2
+The next step was to create the static data and the data service. 
+
+## Stage 3
+After the basics where set up. It was time to work on the weather display and search form.
